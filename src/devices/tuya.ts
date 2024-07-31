@@ -6209,7 +6209,10 @@ const definitions: Definition[] = [
         },
     },
     {
-        fingerprint: tuya.fingerprint('TS0222', ['_TZ3000_kky16aay']),
+        fingerprint: tuya.fingerprint('TS0222', [
+            '_TZ3000_kky16aay',
+            '_TZE204_myd45weu',
+        ]),
         model: 'TS0222_temperature_humidity',
         vendor: 'Tuya',
         description: 'Temperature & humidity sensor',
